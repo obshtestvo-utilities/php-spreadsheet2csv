@@ -1,3 +1,35 @@
+# spreadsheet2csv
+
+## What this is?
+A command line tool for converting XLS files to CSV files.
+
+### Requires
+ - `php5` (за debian-базирани: `sudo apt-get install php5`)
+ - `composer` (http://getcomposer.org/`)
+
+## Usage
+
+```bash
+php spreadsheet2csv.php -f ../../data/samples/votes-individual.xls -o test.csv
+```
+
+and the help output is:
+
+```
+Command line utility to convert Excel spreadhseet documents to CSV files.
+Required arguments:
+
+  -f Path to the Excel spreadsheet (input)
+  -o Path to the CSV output
+
+Example usage:
+   php spreadsheet2csv.php -f input.xls -o output.csv
+```
+
+
+-------------------
+Български
+
 ## XLS файлове към CSV
 Конвертор на публикуваните в parliament.bg Еxcel-ски файлове към по-лесни за препработка CSV файлове.
 
